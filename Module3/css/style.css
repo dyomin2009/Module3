@@ -76,6 +76,9 @@ body {
 
 @media (min-width:1200px){
 #header-nav{height:100px;}
+#chicken, #beef, #sushi {
+	width:300px;
+}
 }
 
 @media (min-width:768px) and (max-width:1199px){
