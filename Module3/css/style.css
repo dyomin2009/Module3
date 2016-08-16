@@ -1,0 +1,132 @@
+body {
+	background-color: #FCD2F9;
+
+}
+
+#header-nav {
+	background-color:#B9C2FA;
+	border-radius:0;
+	border:none;
+	
+
+}
+
+.navbar-brand {
+	padding-top:10px;
+}
+
+.navbar-brand h1{
+	font-family: 'Playball', cursive;
+	color:#05690F;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:3em;
+	text-shadow: 1px 1px 1px #222;
+
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #05690F;
+
+
+
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -5px;
+}
+
+#nav-list {
+	margin-top:12px;
+	
+	
+}
+#nav-list a{
+	text-align:center;
+	color:#05690F;
+	font-family:'Libre Baskerville', serif;
+	font-size:2em;
+	padding:25px;
+}
+#nav-list a:hover{
+	background:#F5FCC7;
+}
+
+#chicken, #beef, #sushi{
+	height:250px;
+	width:100%;
+	position:relative;
+	border:2px solid #96068A;
+	overflow:hidden;
+	margin-bottom:5px;
+
+}
+#chicken  {
+	background:url('../images/chicken.jpg') no-repeat;
+}
+
+#beef {
+	background:url('../images/beef.jpg') no-repeat;
+}
+
+#sushi {
+	background:url('../images/sushi.jpg') no-repeat;
+}
+
+@media (min-width:1200px){
+#header-nav{height:100px;}
+}
+
+@media (min-width:768px) and (max-width:1199px){
+	#header-nav{
+		height:100px;
+	}
+}
+@media (max-width:767px){
+	#chicken, #beef, #sushi {
+		margin:0 auto 15px;
+		width:300px;
+	}
+	
+
+
+
+}
+@media (max-width:479px){
+	.navbar-header{
+		width:auto;
+	}
+
+	.navbar-header h1 {
+		font-size:1.5em;
+		padding-top:15px;
+		padding-left:20px;
+	}
+	#nav-list a {
+		font-size:1.2em;
+		padding:10px;
+
+	}
+}
+
+
+#chicken span, #beef span, #sushi span{
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	font-size:2em;
+    width:100%;
+    background-color:#03050F;
+    opacity:0.6;
+    color:#F5F6FA;
+    font-weight:bold;
+
+}
+
+#title {
+	text-align:center;
+	margin:10px;
+	font-size:3em;
+
+}
